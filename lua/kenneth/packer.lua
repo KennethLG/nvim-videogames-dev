@@ -24,6 +24,7 @@ require("packer").startup(function(use)
 	use("nvim-treesitter/nvim-treesitter") -- Treesitter
 	use("nvim-telescope/telescope.nvim") -- Telescope core
 	use("nvim-lua/plenary.nvim") -- Required dependency for Telescope
+  use("ThePrimeagen/harpoon")
 	use("nvim-telescope/telescope-fzf-native.nvim") -- (Optional) Faster fuzzy searching
 	use({
 		"nvim-neo-tree/neo-tree.nvim",
