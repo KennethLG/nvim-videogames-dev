@@ -59,4 +59,5 @@ require("packer").startup(function(use)
 		},
 	})
 	use("stevearc/conform.nvim")
+  use("JafarDakhan/vim-gml")
 end)
